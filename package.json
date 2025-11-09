@@ -1,15 +1,15 @@
+
 {
-  "name": "desco-proxy-sample",
+  "name": "desco-puppeteer-proxy",
   "version": "1.0.0",
-  "description": "Puppeteer proxy to fetch DESCO prepaid receipt popup and return JSON.",
+  "description": "DESCO Bill Viewer Puppeteer Proxy",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-  "express": "^4.18.2",
-  "puppeteer": "^24.4.0",
-  "helmet": "^7.0.0"
-}
-}
+    "express": "^4.18.2",
+    "puppeteer": "^24.4.0",
+    "helmet": "^7.0.0"
+  }
 }
